@@ -15,6 +15,8 @@
 		BA9E7D0C255BE65700E0FB9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9E7D0A255BE65700E0FB9A /* LaunchScreen.storyboard */; };
 		BA9E7D16255E5B7B00E0FB9A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9E7D15255E5B7B00E0FB9A /* Order.swift */; };
 		BA9E7D18255E647B00E0FB9A /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9E7D17255E647B00E0FB9A /* AddressView.swift */; };
+		BA9E7D1A255E675500E0FB9A /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9E7D19255E675500E0FB9A /* CheckoutView.swift */; };
+		BA9E7D1C255E880E00E0FB9A /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9E7D1B255E880E00E0FB9A /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		BA9E7D0D255BE65700E0FB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9E7D15255E5B7B00E0FB9A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		BA9E7D17255E647B00E0FB9A /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		BA9E7D19255E675500E0FB9A /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		BA9E7D1B255E880E00E0FB9A /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +67,13 @@
 				BA9E7CFF255BE65400E0FB9A /* AppDelegate.swift */,
 				BA9E7D01255BE65400E0FB9A /* SceneDelegate.swift */,
 				BA9E7D03255BE65400E0FB9A /* ContentView.swift */,
+				BA9E7D19255E675500E0FB9A /* CheckoutView.swift */,
 				BA9E7D05255BE65700E0FB9A /* Assets.xcassets */,
 				BA9E7D0A255BE65700E0FB9A /* LaunchScreen.storyboard */,
 				BA9E7D0D255BE65700E0FB9A /* Info.plist */,
 				BA9E7D07255BE65700E0FB9A /* Preview Content */,
 				BA9E7D15255E5B7B00E0FB9A /* Order.swift */,
+				BA9E7D1B255E880E00E0FB9A /* String+Ext.swift */,
 				BA9E7D17255E647B00E0FB9A /* AddressView.swift */,
 			);
 			path = CupcakeCorner;
@@ -153,7 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA9E7D00255BE65400E0FB9A /* AppDelegate.swift in Sources */,
+				BA9E7D1C255E880E00E0FB9A /* String+Ext.swift in Sources */,
 				BA9E7D02255BE65400E0FB9A /* SceneDelegate.swift in Sources */,
+				BA9E7D1A255E675500E0FB9A /* CheckoutView.swift in Sources */,
 				BA9E7D16255E5B7B00E0FB9A /* Order.swift in Sources */,
 				BA9E7D04255BE65400E0FB9A /* ContentView.swift in Sources */,
 				BA9E7D18255E647B00E0FB9A /* AddressView.swift in Sources */,
